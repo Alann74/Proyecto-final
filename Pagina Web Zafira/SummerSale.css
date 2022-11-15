@@ -1,0 +1,35 @@
+
+@media (min-width: 800px) {
+ .diseño, .video{
+     max-width: 192320px; } 
+  }
+
+
+@media (max-width: 1300px) {
+  .diseño, .video{
+    max-width: 100%; } }
+
+
+.video {
+    max-width: 90%;
+    margin-top: -100px;
+    
+}
+
+.dropdown-item {
+    font-family: 'Bebas Neue', cursive ; 
+    font-size: large;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .paginas {
+    margin-left: 45%;
+    
+  }
+
+.body {
+  background-color: #2156EF;
+}  

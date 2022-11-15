@@ -1,0 +1,173 @@
+
+@media (min-width: 800px) {
+  .zafira,.cartas,.body,.hero, .container{
+     max-width: 1920px; } 
+  }
+
+
+@media (max-width: 1300px) {
+  .zafira,.cartas,.body, .hero, .row, .container{
+    max-width: 100%; } }
+
+
+.container{
+  margin-left: 80%;
+  margin-top: -61%;
+  width: 19%;
+  text-align:justify ;
+  
+}
+
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin-top: 1em
+}
+
+.card {
+  /*   width: 15rem; */
+    margin: 1em;
+    position: relative;
+    overflow: hidden; 
+    text-align: center;
+    /* background-color: #fe4747; */
+  }
+  
+  .card:hover .add-to-cart {
+    transform: translateX(0);
+  }
+  
+  .product-image {
+    margin-bottom: 0.6em;
+    
+  }
+
+#carrito1 {
+      width: 50px;
+
+  }
+
+.hr {
+  font-weight: 10px bold;
+}
+
+.body{
+  background-image: url(./imagenes/fondogris.png);
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;    
+}
+
+/* Cartas individuales */
+.col-sm-3.card:hover{
+    transform: translateY(-20px);  
+    animation: colu 7s linear infinite; }
+
+/* Carrito */
+.col-sm-4-1{
+  background-color: rgb(355, 255, 255);
+  border-style: outset;
+  border-radius: 20px;
+  
+  /* width: 400px; */
+  /* margin-left: 1340px; */
+}
+  
+.col-sm-4-1:hover {
+  background: linear-gradient(to bottom, #f4f4f4dc, rgb(246, 244, 244));
+  color: rgb(0, 0, 0);
+  justify-content: center;
+}
+
+.col-sm-8 {
+  width: 2400px;
+  margin-left: -160px;
+  padding: -900px;
+}
+
+#zafira {
+  background: linear-gradient(to top, rgb(197, 72, 72), #4a1010);
+  text-align: center;
+  margin: 0px;
+  color: white;
+  justify-content: center;
+  
+}
+
+#zafira:hover {
+  background: linear-gradient(to bottom, #4a1010, rgb(133, 49, 49));
+  text-align: center;
+  color: white;
+  justify-content: center; }
+
+.zafira {
+  position: fixed;
+  width: 1900px;
+  text-align: center;
+  z-index: 1; }
+
+#items {
+  width: 1890px;
+  margin-left: -1px;
+  padding: 5px;
+  font-family: 'Bebas Neue', cursive ; 
+  font-size: x-large;
+}
+
+.h2 {
+  color: white; 
+  margin-left: 36%;
+  text-decoration: underline black solid; 
+  font-size:230%;
+  margin-top: 1%;
+}
+
+/* .dropdown-item{
+  width: 100px;
+  padding: 10px;
+} */
+
+.notification {
+  position: relative;
+  display: inline-block;
+  max-width: 300px;
+  padding: 20px 15px;
+  border-radius: 4px;
+  background-color: #141619;
+  color: #f6f5f9;
+  box-shadow: 0 1px 10px
+  rgba(0, 0, 0, .1);
+  transform: translateY(30px);
+  opacity: 0;
+  visibility: hidden;
+  animation: fade 4s linear forwards;
+}
+
+.progress {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  width: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, #529bdb, #3250bf);
+  border-radius: 4px;
+  animation: progress 3s .25s linear forwards;
+}
+
+.diseñoUno {
+  width: 10px;
+}
+
+#logo {
+  width: 250px;
+}
+
+.paginas {
+  margin-left: 35%;
+}
+
+.total {
+  text-align: center;
+  width: auto;
+  padding: 2%;
+}
+

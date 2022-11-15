@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="SEO, HTML, CSS, WEBSITE, DEVELOPER, CUENTA">
+    <meta name="description" content="Cuenta">
+    <link rel="stylesheet" href="./Cuenta.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        
+    <title>CUENTA</title>
+</head>
+
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Registrarse</h1>
+      <br>
+			<input type="text" placeholder="Name" />
+      <br>
+			<input type="email" placeholder="Email" />
+      <br>
+			<input type="password" placeholder="Password" />
+      <br>
+			<button class="borde">Registrarse</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Iniciar Sesión</h1>
+      <br>
+      <input type="text" placeholder="Name" class="name"/>
+      <br>
+      <input type="email" placeholder="Email" />
+      <br>
+			<input type="password" placeholder="Password" />
+			<a href="#" class="olvidaste">Olvidaste tu contraseña?</a>
+			<a href="./ZAFIRA.html"><button class="nombre">Entrar</button></a>
+      <a href="./Index.html"><button class="borde">Volver al menú</button></a>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Bienvenido!</h1>
+				<p>Por favor de ingresar datos solicitados para el crear un nuevo usuario, o si ya tiene una cuenta haga click en Iniciar Sesíon</p>
+				<button class="ghost" id="signIn">Iniciar Sesíon</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Nuevo cliente?</h1>
+				<p>Si desea registrarse como cliente, por favor haga click en el boton de abajo</p>
+				<button class="ghost" id="signUp">Registrarse</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="contenedor"></div>
+
+       
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="./Cuenta.js"></script>
+</body>
+</html>
